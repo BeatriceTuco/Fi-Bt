@@ -78,6 +78,17 @@ h15 {
     font-size: 30%;;
 }
 
+h20 {
+    color: #0000CD;
+    font-family: Arial;
+    font-size: 80%;
+}
+
+h21 {
+    color: blue;
+    font-family: Arial;
+    font-size: 170%;
+}
 
 p.ridge {border-style: ridge;}
 
