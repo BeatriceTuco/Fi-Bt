@@ -36,8 +36,7 @@ $.ajax({
 	</div>
 
 
-    <h1><center><img src="img/2b.png" style="width:45px;height:75px;"><img src="img/2b.png" style="width:45px;height:75px;"></center></h>
-
+   <h1><center><img src="img/2b.png" style="width:45px;height:75px;">${res.Title}<img src="img/2b.png" style="width:45px;height:75px;"></center></h>
 
     <h9><center>Manga cover</center></h9>
      <center><img src="img/Volume_1.jpg" style="width:445px;height:615px;"></center>

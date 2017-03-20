@@ -36,7 +36,7 @@ $.ajax({
 	</div>
 
 
-    <h1><center><img src="img/2b.png" style="width:45px;height:75px;">${res.Title}<img src="img/2b.png" style="width:45px;height:75px;"></center></h>
+    <h1><center><img src="img/2b.png" style="width:45px;height:75px;">${res.Title}<img src="img/2b.png" style="width:45px;height:75px;"></center></h1>
     <h13><center>Characters</center></h13>
 
 
