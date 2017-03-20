@@ -1,49 +1,49 @@
 $('#app').html(`
 
 <div class="cssload-container">
-	<div class="cssload-shaft1"></div>
-	<div class="cssload-shaft2"></div>
-	<div class="cssload-shaft3"></div>
-	<div class="cssload-shaft4"></div>
-	<div class="cssload-shaft5"></div>
-	<div class="cssload-shaft6"></div>
-	<div class="cssload-shaft7"></div>
-	<div class="cssload-shaft8"></div>
-	<div class="cssload-shaft9"></div>
-	<div class="cssload-shaft10"></div>
+  <div class="cssload-shaft1"></div>
+  <div class="cssload-shaft2"></div>
+  <div class="cssload-shaft3"></div>
+  <div class="cssload-shaft4"></div>
+  <div class="cssload-shaft5"></div>
+  <div class="cssload-shaft6"></div>
+  <div class="cssload-shaft7"></div>
+  <div class="cssload-shaft8"></div>
+  <div class="cssload-shaft9"></div>
+  <div class="cssload-shaft10"></div>
 </div>
 
-	`);
+  `);
 
 
 setTimeout(function(){
-	x();
+  x();
 },3000);
 
 
 
 function x(){
 $.ajax({
-	url: "https://www.omdbapi.com/?t=Detective Conan"
+  url: "https://www.omdbapi.com/?t=Detective Conan"
 
 
 }).done(function(res){
-	console.log(res);
-	let html = `
-	
-	<div>
-	<center><img src="img/bannerb.jpg" style="width:1348px;height:330px;"></center>
-	</div>
+  console.log(res);
+  let html = `
+  
+  <div>
+  <center><img src="img/bannerb.jpg" style="width:1348px;height:330px;"></center>
+  </div>
 
 
-    <h1><center><img src="img/2b.png" style="width:45px;height:75px;">${res.Title}<img src="img/2b.png" style="width:45px;height:75px;"></center></h1>
+    <h1><center><img src="img/2b.png" style="width:45px;height:75px;">${res.Title}<img src="img/2b.png" style="width:45px;height:75px;"></center></h>
     <h13><center>Characters</center></h13>
 
 
 
     <div>
-    <h13><left-align>Protagonist</left-align</h13>
-    <h15><center>
+    <h11><left-align>Protagonist</left-align</h11>
+    <h12><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -81,14 +81,14 @@ $.ajax({
   </tbody>
     </table>
     </center>
-    </h15>
+    </h12>
     </div>
 
 
 
     <div>
-    <h13><left-align>Detective Boys</left-align</h13>
-    <h15><center>
+    <h11><left-align>Detective Boys</left-align</h11>
+    <h12><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -126,14 +126,14 @@ $.ajax({
   </tbody>
 </table>
 </center>
-</h15>
+</h12>
 </div>
 
 
 
     <div>
-    <h13><left-align>Family & Friends</left-align</h11>
-    <h15><center>
+    <h11><left-align>Family & Friends</left-align</h11>
+    <h12><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -261,14 +261,14 @@ $.ajax({
   </tbody>
     </table>
     </center>
-    </h15>
+    </h12>
     </div>
 
 
 
      <div>
-    <h13><left-align>Law enforcement</left-align</h11>
-    <h15><center>
+    <h11><left-align>Law enforcement</left-align</h11>
+    <h12><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -348,7 +348,7 @@ $.ajax({
   </tbody>
     </table>
     </center>
-    </h15>
+    </h12>
     </div>
 
 
@@ -382,10 +382,10 @@ $.ajax({
   </nav>
    </div>
 
-  	<div>
-	<center><img src="img/downhead.jpg" style="width:1348px;height:48px;"></center>
-	</div>
-	`;
+    <div>
+  <center><img src="img/downhead.jpg" style="width:1348px;height:48px;"></center>
+  </div>
+  `;
 $('#app').html(html);
 $(".button-collapse").sideNav();
 
