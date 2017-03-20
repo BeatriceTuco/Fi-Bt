@@ -41,6 +41,10 @@ $.ajax({
     <h9><center>Manga cover</center></h9>
      <center><img src="img/Volume_1.jpg" style="width:445px;height:615px;"></center>
 
+ <div>
+    <p class="ridge"></p>
+    </div>
+    
     <div>
     <h8><center>Detective Conan is a Japanese detective manga series, anime series and movies. 
     You can read it's manga on this link <a href="http://www.mangatown.com/manga/detective_conan">
@@ -49,7 +53,9 @@ $.ajax({
     "gogoanime.io/detective_conan"</a></center></h8>
     </div>
 
-
+ <div>
+    <p class="ridge"></p>
+    </div>
 
     <div>
     <nav>

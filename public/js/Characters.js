@@ -42,8 +42,8 @@ $.ajax({
 
 
     <div>
-    <h11><left-align>Protagonist</left-align</h11>
-    <h12><center>
+    <h13><left-align>Protagonist</left-align</h13>
+    <h15><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -81,14 +81,14 @@ $.ajax({
   </tbody>
     </table>
     </center>
-    </h12>
+    </h15>
     </div>
 
 
 
     <div>
-    <h11><left-align>Detective Boys</left-align</h11>
-    <h12><center>
+    <h13><left-align>Detective Boys</left-align</h13>
+    <h15><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -126,14 +126,14 @@ $.ajax({
   </tbody>
 </table>
 </center>
-</h12>
+</h15>
 </div>
 
 
 
     <div>
-    <h11><left-align>Family & Friends</left-align</h11>
-    <h12><center>
+    <h13><left-align>Family & Friends</left-align</h11>
+    <h15><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -261,14 +261,14 @@ $.ajax({
   </tbody>
     </table>
     </center>
-    </h12>
+    </h15>
     </div>
 
 
 
      <div>
-    <h11><left-align>Law enforcement</left-align</h11>
-    <h12><center>
+    <h13><left-align>Law enforcement</left-align</h11>
+    <h15><center>
     <table class="table table-inverse">
   <thead>
     <tr>
@@ -348,7 +348,7 @@ $.ajax({
   </tbody>
     </table>
     </center>
-    </h12>
+    </h15>
     </div>
 
 
